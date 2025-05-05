@@ -1,0 +1,18 @@
+command_id: 770.778.22BC04
+can_id_format: ELEVEN_BIT
+extended_addressing_enabled: false
+test_cases:
+- response: |-
+    778100B62BC04F01300
+    778216201000042AAAA
+  expected_values:
+    HYUNDAI_LOCK_FL: 0
+    HYUNDAI_LOCK_FR: 0
+    HYUNDAI_REVERSE_GEAR: 0
+- response: |-
+    778100B62BC04F01300
+    77821620F000042AAAA
+  expected_values:
+    HYUNDAI_LOCK_FL: 0
+    HYUNDAI_LOCK_FR: 0
+    HYUNDAI_REVERSE_GEAR: 1
