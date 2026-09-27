@@ -1,22 +1,22 @@
 command_id: 770.778.22BC07
 test_cases:
 - expected_values:
-    HYUNDAI_DEFOG_LIGHT: 0
+    VENUE_DEFOG_LIGHT: 0
   response: |-
     778100B62BC07000000
     778213000000000AAAA
 - expected_values:
-    HYUNDAI_DEFOG_LIGHT: 0
+    VENUE_DEFOG_LIGHT: 0
   response: |-
     778100B62BC07000603
     778213000000000AAAA
 - expected_values:
-    HYUNDAI_DEFOG_LIGHT: 0
+    VENUE_DEFOG_LIGHT: 0
   response: |-
     778100B62BC07000603
     778213000000004AAAA
 - expected_values:
-    HYUNDAI_DEFOG_LIGHT: 1
+    VENUE_DEFOG_LIGHT: 0
   response: |-
     778100B62BC07000603
     778213000200004AAAA
