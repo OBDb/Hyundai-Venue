@@ -287,11 +287,6 @@
     {"id": "VENUE_MIS_CAT_3", "path": "Engine.Misfires", "fmt": {"bix": 192, "len": 16, "blsb": true, "max": 65535, "unit": "scalar" }, "name": "Misfires harmful for catalyst cylinder 3"},
     {"id": "VENUE_MIS_CAT_4", "path": "Engine.Misfires", "fmt": {"bix": 208, "len": 16, "blsb": true, "max": 65535, "unit": "scalar" }, "name": "Misfires harmful for catalyst cylinder 4"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"21": "948001"}, "freq": 5,
-  "signals": [
-    {"id": "VENUE_INTERCOOLER_T", "path": "Engine", "fmt": {"bix": 32, "len": 8, "max": 205, "min": -50,                       "add": -50, "unit": "celsius" }, "name": "Intercooler temperature"},
-    {"id": "VENUE_SOOT_LEVEL",    "path": "Engine", "fmt": {"bix": 64, "len": 8, "max": 100,             "mul": 20, "div": 51,             "unit": "unknown" }, "name": "Soot level"}
-  ]},
 { "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "21A0"}, "freq": 5,
   "signals": [
     {"id": "VENUE_ATF_TEMP", "path": "Transmission", "fmt": {"bix": 16, "len": 8, "max": 255, "mul": 9, "div": 5, "add": -40, "unit": "fahrenheit" }, "name": "Transmission fluid temperature"}
