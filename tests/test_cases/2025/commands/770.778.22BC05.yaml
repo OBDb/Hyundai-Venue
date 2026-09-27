@@ -1,12 +1,12 @@
 command_id: 770.778.22BC05
 test_cases:
 - expected_values:
-    HYUNDAI_HAZARD_SW: 0
+    VENUE_HAZARD_SW: 0
   response: |-
     778100B62BC050F1124
     778210000000000AAAA
 - expected_values:
-    HYUNDAI_HAZARD_SW: 80
+    VENUE_HAZARD_SW: 80
   response: |-
     778100B62BC050F1124
     778210050000000AAAA

@@ -1,20 +1,20 @@
 command_id: 770.778.22BC09
 test_cases:
 - expected_values:
-    HYUNDAI_HL_HIGH: 0
-    HYUNDAI_HL_LOW: 0
+    VENUE_HL_HIGH: 0
+    VENUE_HL_LOW: 0
   response: |-
     778100B62BC09040030
     778213000000000AAAA
 - expected_values:
-    HYUNDAI_HL_HIGH: 0
-    HYUNDAI_HL_LOW: 1
+    VENUE_HL_HIGH: 0
+    VENUE_HL_LOW: 0
   response: |-
     778100B62BC09040030
     77821300000000CAAAA
 - expected_values:
-    HYUNDAI_HL_HIGH: 0
-    HYUNDAI_HL_LOW: 1
+    VENUE_HL_HIGH: 0
+    VENUE_HL_LOW: 0
   response: |-
     778100B62BC09040030
     778213C0000000CAAAA
