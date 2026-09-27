@@ -186,7 +186,7 @@
 { "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"21": "03"}, "freq": 5,
   "signals": [
     {"id": "VENUE_EXHAUST_GAS_T",                 "path": "Engine", "fmt": {"bix": 368, "len": 8,  "max": 1300.00000011,      "min": 99, "mul": 4.709803922,              "add": 99, "unit": "celsius"    }, "name": "Exhaust gas temperature"},
-    {"id": "VENUE_ODOMETER_AT_LAST_DPF_REGEN",    "path": "Trips",  "fmt": {"bix": 392, "len": 32, "max": 4294967.2949999999,                                "div": 1000,            "unit": "kilometers" }, "name": "Odometer at last DPF regeneration"},
+    {"id": "VENUE_ODO_LAST_DPF_REGEN",            "path": "Trips",  "fmt": {"bix": 392, "len": 32, "max": 4294967.2949999999,                                "div": 1000,            "unit": "kilometers" }, "name": "Odometer at last DPF regeneration"},
     {"id": "VENUE_DISTANCE_SINCE_LAST_DPF_REGEN", "path": "Trips",  "fmt": {"bix": 424, "len": 32, "max": 4294967.2949999999,                                "div": 1000,            "unit": "kilometers" }, "name": "Distance since last DPF regeneration"},
     {"id": "VENUE_ODO",                           "path": "Trips",  "fmt": {"bix": 456, "len": 32, "max": 4294967.2949999999,                                "div": 1000,            "unit": "kilometers" }, "name": "Odometer",                             "suggestedMetric": "odometer"}
   ]},
@@ -204,6 +204,13 @@
     {"id": "VENUE_MAIN_INJECTION_QTY",  "path": "Engine", "fmt": {"bix": 96,  "len": 8,  "max": 100.000000065, "mul": 0.392156863, "unit": "liters" }, "name": "Main injection volume"},
     {"id": "VENUE_PILOT_INJECTION_QTY", "path": "Engine", "fmt": {"bix": 104, "len": 16, "max": 65535,                             "unit": "liters" }, "name": "Pilot injection volume"},
     {"id": "VENUE_POST_INJECTION_QTY",  "path": "Engine", "fmt": {"bix": 128, "len": 16, "max": 65535,                             "unit": "liters" }, "name": "Post injection volume"}
+  ]},
+{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"21": "0A"}, "freq": 1,
+  "signals": [
+    {"id": "VENUE_KNOCK_RETARD_CYL_1_ALT", "path": "Engine", "fmt": {"bix": 160, "len": 8, "max": 191.25, "div": 1.3333333333, "unit": "degrees" }, "name": "Knock retard cylinder 1, alternate"},
+    {"id": "VENUE_KNOCK_RETARD_CYL_2_ALT", "path": "Engine", "fmt": {"bix": 168, "len": 8, "max": 191.25, "div": 1.3333333333, "unit": "degrees" }, "name": "Knock retard cylinder 2, alternate"},
+    {"id": "VENUE_KNOCK_RETARD_CYL_3_ALT", "path": "Engine", "fmt": {"bix": 176, "len": 8, "max": 191.25, "div": 1.3333333333, "unit": "degrees" }, "name": "Knock retard cylinder 3, alternate"},
+    {"id": "VENUE_KNOCK_RETARD_CYL_4_ALT", "path": "Engine", "fmt": {"bix": 184, "len": 8, "max": 191.25, "div": 1.3333333333, "unit": "degrees" }, "name": "Knock retard cylinder 4, alternate"}
   ]},
 { "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"21": "0D"}, "freq": 1,
   "signals": [
@@ -258,6 +265,13 @@
   "signals": [
     {"id": "VENUE_CVVT_T", "path": "Engine", "fmt": {"bix": 272, "len": 8, "max": 207, "min": -48, "add": -48, "unit": "celsius" }, "name": "Variable valve timing temperature", "description": "Continuously variable valve timing temperature."}
   ]},
+{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"21": "19"}, "freq": 1,
+  "signals": [
+    {"id": "VENUE_KNOCK_RETARD_CYL_1", "path": "Engine", "fmt": {"bix": 168, "len": 8, "max": 0, "min": -191.25, "mul": 3, "div": 4, "add": -191.25, "unit": "degrees" }, "name": "Knock retard cylinder 1"},
+    {"id": "VENUE_KNOCK_RETARD_CYL_2", "path": "Engine", "fmt": {"bix": 176, "len": 8, "max": 0, "min": -191.25, "mul": 3, "div": 4, "add": -191.25, "unit": "degrees" }, "name": "Knock retard cylinder 2"},
+    {"id": "VENUE_KNOCK_RETARD_CYL_3", "path": "Engine", "fmt": {"bix": 184, "len": 8, "max": 0, "min": -191.25, "mul": 3, "div": 4, "add": -191.25, "unit": "degrees" }, "name": "Knock retard cylinder 3"},
+    {"id": "VENUE_KNOCK_RETARD_CYL_4", "path": "Engine", "fmt": {"bix": 192, "len": 8, "max": 0, "min": -191.25, "mul": 3, "div": 4, "add": -191.25, "unit": "degrees" }, "name": "Knock retard cylinder 4"}
+  ]},
 { "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"21": "1B"}, "freq": 1,
   "signals": [
     {"id": "VENUE_DPF_DIFFERENTIAL_PRESSURE", "path": "Engine", "fmt": { "len": 16, "max": 32767.5, "div": 2, "unit": "unknown" }, "name": "Diesel particulate filter differential pressure"}
@@ -272,6 +286,11 @@
     {"id": "VENUE_MIS_CAT_2", "path": "Engine.Misfires", "fmt": {"bix": 176, "len": 16, "blsb": true, "max": 65535, "unit": "scalar" }, "name": "Misfires harmful for catalyst cylinder 2"},
     {"id": "VENUE_MIS_CAT_3", "path": "Engine.Misfires", "fmt": {"bix": 192, "len": 16, "blsb": true, "max": 65535, "unit": "scalar" }, "name": "Misfires harmful for catalyst cylinder 3"},
     {"id": "VENUE_MIS_CAT_4", "path": "Engine.Misfires", "fmt": {"bix": 208, "len": 16, "blsb": true, "max": 65535, "unit": "scalar" }, "name": "Misfires harmful for catalyst cylinder 4"}
+  ]},
+{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"21": "948001"}, "freq": 5,
+  "signals": [
+    {"id": "VENUE_INTERCOOLER_T", "path": "Engine", "fmt": {"bix": 32, "len": 8, "max": 205, "min": -50,                       "add": -50, "unit": "celsius" }, "name": "Intercooler temperature"},
+    {"id": "VENUE_SOOT_LEVEL",    "path": "Engine", "fmt": {"bix": 64, "len": 8, "max": 100,             "mul": 20, "div": 51,             "unit": "unknown" }, "name": "Soot level"}
   ]},
 { "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "21A0"}, "freq": 5,
   "signals": [
@@ -348,9 +367,47 @@
     {"id": "VENUE_WG_POS",  "path": "Engine", "fmt": {"bix": 424, "len": 16, "max": 399.9941832, "mul": 0.00610352,  "unit": "percent"    }, "name": "Waste gate position"},
     {"id": "VENUE_WG_SP",   "path": "Engine", "fmt": {"bix": 440, "len": 16, "max": 399.9941832, "mul": 0.00610352,  "unit": "percent"    }, "name": "Waste gate set point"}
   ]},
+{ "hdr": "7E0", "rax": "7E8", "din": "03", "dbg": true, "cmd": {"22": "E0F1"}, "freq": 1,
+  "signals": [
+    {"id": "VENUE_DPF_DIFF_P", "path": "Engine", "fmt": {"bix": 248, "len": 8, "max": 1000.0011, "min": -100, "mul": 431373, "div": 100000, "add": -100, "unit": "unknown" }, "name": "Diesel particulate filter differential pressure"}
+  ]},
+{ "hdr": "7E0", "rax": "7E8", "din": "03", "dbg": true, "cmd": {"22": "ED01"}, "freq": 5,
+  "signals": [
+    {"id": "VENUE_FUEL_P",               "path": "Fuel",   "fmt": {"bix": 40,  "len": 8, "max": 2500000.0003,             "mul": 980392157, "div": 100000,             "unit": "unknown" }, "name": "Fuel pressure"},
+    {"id": "VENUE_GLOW_RELAY_DUTY",      "path": "Engine", "fmt": {"bix": 136, "len": 8, "max": 100,                      "mul": 2451,      "div": 6250,               "unit": "percent" }, "name": "Glow relay duty"},
+    {"id": "VENUE_BOOST_P",              "path": "Engine", "fmt": {"bix": 200, "len": 8, "max": 3499.9999,                "mul": 1372549,   "div": 100000,             "unit": "unknown" }, "name": "Boost pressure"},
+    {"id": "VENUE_BOOST_REGULATOR_DUTY", "path": "Engine", "fmt": {"bix": 208, "len": 8, "max": 100,                      "mul": 20,        "div": 51,                 "unit": "percent" }, "name": "Boost regulator duty"},
+    {"id": "VENUE_FUEL_T",               "path": "Fuel",   "fmt": {"bix": 216, "len": 8, "max": 149.9199,     "min": -50, "mul": 98,        "div": 125,    "add": -50, "unit": "celsius" }, "name": "Fuel temperature"}
+  ]},
 { "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "ED02"}, "freq": 5,
   "signals": [
     {"id": "VENUE_EOT_V2", "path": "Engine", "fmt": {"bix": 184, "len": 8, "max": 251, "min": -4, "add": -4, "unit": "celsius" }, "name": "Engine oil temperature"}
+  ]},
+{ "hdr": "7E0", "rax": "7E8", "din": "03", "dbg": true, "cmd": {"22": "ED03"}, "freq": 3600,
+  "signals": [
+    {"id": "VENUE_FUEL_CONS",              "path": "Fuel",   "fmt": {"bix": 40,  "len": 8,  "max": 326.9992,           "mul": 25647,   "div": 20000,            "unit": "liters"     }, "name": "Fuel consumption"},
+    {"id": "VENUE_EXH_GAS_FLOW_PF",        "path": "Engine", "fmt": {"bix": 256, "len": 8,  "max": 2000000.7,          "mul": 392157,  "div": 50,               "unit": "liters"     }, "name": "Exhaust gas flow in the particulate filter"},
+    {"id": "VENUE_EXH_GAS_T_CAT",          "path": "Engine", "fmt": {"bix": 272, "len": 8,  "max": 1300.05,            "mul": 471,     "div": 100,   "add": 99, "unit": "celsius"    }, "name": "Exhaust gas temperature at catalyst"},
+    {"id": "VENUE_NOX_TRAP_OUTLET_P",      "path": "Engine", "fmt": {"bix": 288, "len": 8,  "max": 32767.0002,         "mul": 3212451, "div": 25000,            "unit": "unknown"    }, "name": "NOx trap outlet pressure"},
+    {"id": "VENUE_DPF_LOAD_MODEL",         "path": "Engine", "fmt": {"bix": 296, "len": 8,  "max": 100,                                                         "unit": "percent"    }, "name": "Diesel particulate filter load, from model"},
+    {"id": "VENUE_ODO_LAST_DPF_REGEN_7E0", "path": "Trips",  "fmt": {"bix": 304, "len": 32, "max": 4294967.2949999999,                 "div": 1000,             "unit": "kilometers" }, "name": "Odometer at last DPF regen"},
+    {"id": "VENUE_DIST_SINCE_DPF_REGEN",   "path": "Trips",  "fmt": {"bix": 336, "len": 32, "max": 4294967.2949999999,                 "div": 1000,             "unit": "kilometers" }, "name": "Distance since last DPF regen"},
+    {"id": "VENUE_ODO_7E0",                "path": "Trips",  "fmt": {"bix": 368, "len": 32, "max": 4294967.2949999999,                 "div": 1000,             "unit": "kilometers" }, "name": "Odometer"},
+    {"id": "VENUE_DPF_REGEN_SUCCESS_ST",   "path": "Engine", "fmt": {"bix": 407, "len": 1,  "max": 1,                                                           "unit": "offon"      }, "name": "Diesel particulate filter regen success state"},
+    {"id": "VENUE_DPF_REGEN_DEMAND_CNT",   "path": "Engine", "fmt": {"bix": 432, "len": 8,  "max": 255,                                                         "unit": "scalar"     }, "name": "Diesel particulate filter regen demand counter"}
+  ]},
+{ "hdr": "7E0", "rax": "7E8", "din": "03", "dbg": true, "cmd": {"22": "ED05"}, "freq": 0.25,
+  "signals": [
+    {"id": "VENUE_GEAR_INFORMATION", "path": "Transmission", "fmt": {"bix": 176, "len": 8, "max": 255, "unit": "scalar" }, "name": "Gear information"}
+  ]},
+{ "hdr": "7E0", "rax": "7E8", "din": "03", "dbg": true, "cmd": {"22": "ED06"}, "freq": 1,
+  "signals": [
+    {"id": "VENUE_DPF_REGEN_COMPLETED", "path": "Engine", "fmt": {"bix": 200, "len": 8, "max": 255, "unit": "scalar" }, "name": "Diesel particulate filter regen, completed state"}
+  ]},
+{ "hdr": "7E0", "rax": "7E8", "din": "03", "dbg": true, "cmd": {"22": "ED27"}, "freq": 0.25,
+  "signals": [
+    {"id": "VENUE_GEAR_NEUTRAL_POS",       "path": "Transmission", "fmt": {"bix": 36,  "len": 1,  "max": 1,                                                             "unit": "offon"   }, "name": "Gear in neutral position"},
+    {"id": "VENUE_BRAKE_BOOSTER_VACUUM_P", "path": "Control",      "fmt": {"bix": 128, "len": 16, "max": 1355.8649, "min": -1200, "mul": 39, "div": 1000, "add": -1200, "unit": "unknown" }, "name": "Brake booster vacuum pressure"}
   ]},
 { "hdr": "7E1", "rax": "7E9", "dbg": true, "cmd": {"21": "A0"}, "freq": 0.25,
   "signals": [
