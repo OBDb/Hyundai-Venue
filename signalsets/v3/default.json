@@ -160,35 +160,35 @@
   ]},
 { "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"21": "01"}, "freq": 1,
   "signals": [
-    {"id": "VENUE_CONTROL_MODULE_VOLTAGE",                "path": "Battery",  "fmt": {"bix": 40,  "len": 8,  "max": 255,                                                                         "unit": "volts"   },                   "name": "Control module voltage"},
-    {"id": "VENUE_CONTROL_MODULE_VOLTAGE_AFTER_IGNITION", "path": "Battery",  "fmt": {"bix": 48,  "len": 8,  "max": 255,                                                                         "unit": "volts"   },                   "name": "Control module voltage after ignition"},
-    {"id": "VENUE_ENGINE_RPM",                            "path": "Movement", "fmt": {"bix": 56,  "len": 16, "blsb": true,  "max": 16383.75,                                         "div": 4,                     "unit": "rpm"        },                                               "name": "Engine RPM"},
-    {"id": "VENUE_COMMANDED_ENGINE_IDLE_RPM",             "path": "Movement", "fmt": {"bix": 72,  "len": 8,  "max": 2550,                          "mul": 10,                                    "unit": "rpm"     },                   "name": "Commanded engine idle RPM"},
-    {"id": "VENUE_MAP_SENSOR_VOLTAGE",                    "path": "Battery",  "fmt": {"bix": 112, "len": 16, "blsb": true,  "max": 319.9951171875,              "mul": 0.0048828125,                               "unit": "volts"      },                                               "name": "Manifold absolute pressure sensor voltage"},
-    {"id": "VENUE_INTAKE_MANIFOLD_ABSOLUTE_PRESSURE",     "path": "ECU",      "fmt": {"bix": 128, "len": 16, "blsb": true,  "max": 255.99609375,                                     "div": 256,                   "unit": "kilopascal" },                                               "name": "Intake manifold absolute pressure"},
-    {"id": "VENUE_COOLANT_T_SENSOR_VOLTAGE",              "path": "Battery",  "fmt": {"bix": 184, "len": 16, "blsb": true,  "max": 319.9951171875,              "mul": 0.0048828125,                               "unit": "volts"      },                                               "name": "Coolant temperature sensor voltage"},
-    {"id": "VENUE_ENGINE_COOLANT_T",                      "path": "Engine",   "fmt": {"bix": 200, "len": 8,  "max": 143.25, "min": -48,            "mul": 0.75,                      "add": -48, "unit": "celsius" },                   "name": "Engine coolant temperature"},
-    {"id": "VENUE_IAT_SENSOR_VOLTAGE",                    "path": "Battery",  "fmt": {"bix": 248, "len": 16, "blsb": true,  "max": 319.9951171875,              "mul": 0.0048828125,                               "unit": "volts"      },                                               "name": "IAT sensor voltage"},
-    {"id": "VENUE_INTAKE_AIR_T",                          "path": "Engine",   "fmt": {"bix": 264, "len": 8,  "max": 143.25, "min": -48,            "mul": 0.75,                      "add": -48, "unit": "celsius" },                   "name": "Intake air temperature"},
-    {"id": "VENUE_ENGINE_OIL_T",                          "path": "Engine",   "fmt": {"bix": 272, "len": 8,  "max": 143.25, "min": -48,            "mul": 0.75,                      "add": -48, "unit": "celsius" },                   "name": "Engine oil temperature"}
+    {"id": "VENUE_CONTROL_MODULE_VOLTAGE",                "path": "Battery",  "fmt": {"bix": 40,  "len": 8,  "max": 255,                                                                   "unit": "volts"   },                   "name": "Control module voltage"},
+    {"id": "VENUE_CONTROL_MODULE_VOLTAGE_AFTER_IGNITION", "path": "Battery",  "fmt": {"bix": 48,  "len": 8,  "max": 255,                                                                   "unit": "volts"   },                   "name": "Control module voltage after ignition"},
+    {"id": "VENUE_ENGINE_RPM",                            "path": "Movement", "fmt": {"bix": 56,  "len": 16, "blsb": true,  "max": 16383.75,                                   "div": 4,                     "unit": "rpm"        },                                               "name": "Engine RPM"},
+    {"id": "VENUE_COMMANDED_ENGINE_IDLE_RPM",             "path": "Movement", "fmt": {"bix": 72,  "len": 8,  "max": 2550,                    "mul": 10,                                    "unit": "rpm"     },                   "name": "Commanded engine idle RPM"},
+    {"id": "VENUE_MAP_SENSOR_VOLTAGE",                    "path": "Battery",  "fmt": {"bix": 112, "len": 16, "blsb": true,  "max": 319,                   "mul": 0.0048828125,                               "unit": "volts"      },                                               "name": "Manifold absolute pressure sensor voltage"},
+    {"id": "VENUE_INTAKE_MANIFOLD_ABSOLUTE_PRESSURE",     "path": "ECU",      "fmt": {"bix": 128, "len": 16, "blsb": true,  "max": 255,                                        "div": 256,                   "unit": "kilopascal" },                                               "name": "Intake manifold absolute pressure"},
+    {"id": "VENUE_COOLANT_T_SENSOR_VOLTAGE",              "path": "Battery",  "fmt": {"bix": 184, "len": 16, "blsb": true,  "max": 319,                   "mul": 0.0048828125,                               "unit": "volts"      },                                               "name": "Coolant temperature sensor voltage"},
+    {"id": "VENUE_ENGINE_COOLANT_T",                      "path": "Engine",   "fmt": {"bix": 200, "len": 8,  "max": 143.25, "min": -48,      "mul": 0.75,                      "add": -48, "unit": "celsius" },                   "name": "Engine coolant temperature"},
+    {"id": "VENUE_IAT_SENSOR_VOLTAGE",                    "path": "Battery",  "fmt": {"bix": 248, "len": 16, "blsb": true,  "max": 319,                   "mul": 0.0048828125,                               "unit": "volts"      },                                               "name": "IAT sensor voltage"},
+    {"id": "VENUE_INTAKE_AIR_T",                          "path": "Engine",   "fmt": {"bix": 264, "len": 8,  "max": 143.25, "min": -48,      "mul": 0.75,                      "add": -48, "unit": "celsius" },                   "name": "Intake air temperature"},
+    {"id": "VENUE_ENGINE_OIL_T",                          "path": "Engine",   "fmt": {"bix": 272, "len": 8,  "max": 143.25, "min": -48,      "mul": 0.75,                      "add": -48, "unit": "celsius" },                   "name": "Engine oil temperature"}
   ]},
 { "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"21": "02"}, "freq": 1,
   "signals": [
-    {"id": "VENUE_OXYGEN_SENSOR_11",            "path": "ECU",      "fmt": {"bix": 32,  "len": 8,  "max": 1.12855,   "min": -0.2,      "mul": 0.00521,                 "add": -0.2, "unit": "volts"             },                     "name": "Oxygen sensor 1 bank 1"},
-    {"id": "VENUE_OXYGEN_SENSOR_21",            "path": "ECU",      "fmt": {"bix": 48,  "len": 8,  "max": 1.12855,   "min": -0.2,      "mul": 0.00521,                 "add": -0.2, "unit": "volts"             },                     "name": "Oxygen sensor 2 bank 1"},
-    {"id": "VENUE_VSS_V2",                      "path": "Movement", "fmt": {"bix": 96,  "len": 8,  "max": 318.75,                      "mul": 1.25,                                 "unit": "kilometersPerHour" },                     "name": "Vehicle speed, v2",           "suggestedMetric": "speed"},
-    {"id": "VENUE_COMMANDED_EVAPORATIVE_PURGE", "path": "ECU",      "fmt": {"bix": 160, "len": 8,  "max": 99.609375,                   "mul": 0.390625,                             "unit": "percent"           },                     "name": "Commanded evaporative purge"},
-    {"id": "VENUE_FUEL_INJECTION_TIMING_1",     "path": "Fuel",     "fmt": {"bix": 176, "len": 16, "blsb": true,     "max": 53686.272,                  "mul": 0.8192,                                          "unit": "milliseconds" },                                     "name": "Fuel injection timing #1"},
-    {"id": "VENUE_FUEL_INJECTION_TIMING_2",     "path": "Fuel",     "fmt": {"bix": 192, "len": 16, "blsb": true,     "max": 53686.272,                  "mul": 0.8192,                                          "unit": "milliseconds" },                                     "name": "Fuel injection timing #2"},
-    {"id": "VENUE_FUEL_INJECTION_TIMING_3",     "path": "Fuel",     "fmt": {"bix": 208, "len": 16, "blsb": true,     "max": 53686.272,                  "mul": 0.8192,                                          "unit": "milliseconds" },                                     "name": "Fuel injection timing #3"},
-    {"id": "VENUE_FUEL_INJECTION_TIMING_4",     "path": "Fuel",     "fmt": {"bix": 224, "len": 16, "blsb": true,     "max": 53686.272,                  "mul": 0.8192,                                          "unit": "milliseconds" },                                     "name": "Fuel injection timing #4"}
+    {"id": "VENUE_OXYGEN_SENSOR_11",            "path": "ECU",      "fmt": {"bix": 32,  "len": 8,  "max": 1.12,   "min": -0.2,      "mul": 0.00521,                 "add": -0.2, "unit": "volts"             },                     "name": "Oxygen sensor 1 bank 1"},
+    {"id": "VENUE_OXYGEN_SENSOR_21",            "path": "ECU",      "fmt": {"bix": 48,  "len": 8,  "max": 1.12,   "min": -0.2,      "mul": 0.00521,                 "add": -0.2, "unit": "volts"             },                     "name": "Oxygen sensor 2 bank 1"},
+    {"id": "VENUE_VSS_V2",                      "path": "Movement", "fmt": {"bix": 96,  "len": 8,  "max": 318.75,                   "mul": 1.25,                                 "unit": "kilometersPerHour" },                     "name": "Vehicle speed, v2",           "suggestedMetric": "speed"},
+    {"id": "VENUE_COMMANDED_EVAPORATIVE_PURGE", "path": "ECU",      "fmt": {"bix": 160, "len": 8,  "max": 99.6,                     "mul": 0.390625,                             "unit": "percent"           },                     "name": "Commanded evaporative purge"},
+    {"id": "VENUE_FUEL_INJECTION_TIMING_1",     "path": "Fuel",     "fmt": {"bix": 176, "len": 16, "blsb": true,  "max": 53686.272,                  "mul": 0.8192,                                          "unit": "milliseconds" },                                     "name": "Fuel injection timing #1"},
+    {"id": "VENUE_FUEL_INJECTION_TIMING_2",     "path": "Fuel",     "fmt": {"bix": 192, "len": 16, "blsb": true,  "max": 53686.272,                  "mul": 0.8192,                                          "unit": "milliseconds" },                                     "name": "Fuel injection timing #2"},
+    {"id": "VENUE_FUEL_INJECTION_TIMING_3",     "path": "Fuel",     "fmt": {"bix": 208, "len": 16, "blsb": true,  "max": 53686.272,                  "mul": 0.8192,                                          "unit": "milliseconds" },                                     "name": "Fuel injection timing #3"},
+    {"id": "VENUE_FUEL_INJECTION_TIMING_4",     "path": "Fuel",     "fmt": {"bix": 224, "len": 16, "blsb": true,  "max": 53686.272,                  "mul": 0.8192,                                          "unit": "milliseconds" },                                     "name": "Fuel injection timing #4"}
   ]},
 { "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"21": "03"}, "freq": 5,
   "signals": [
-    {"id": "VENUE_EXHAUST_GAS_T",                 "path": "Engine", "fmt": {"bix": 368, "len": 8,  "max": 1300.00000011,      "min": 99, "mul": 4.709803922,              "add": 99, "unit": "celsius"    }, "name": "Exhaust gas temperature"},
-    {"id": "VENUE_ODO_LAST_DPF_REGEN",            "path": "Trips",  "fmt": {"bix": 392, "len": 32, "max": 4294967.2949999999,                                "div": 1000,            "unit": "kilometers" }, "name": "Odometer at last DPF regeneration"},
-    {"id": "VENUE_DISTANCE_SINCE_LAST_DPF_REGEN", "path": "Trips",  "fmt": {"bix": 424, "len": 32, "max": 4294967.2949999999,                                "div": 1000,            "unit": "kilometers" }, "name": "Distance since last DPF regeneration"},
-    {"id": "VENUE_ODO",                           "path": "Trips",  "fmt": {"bix": 456, "len": 32, "max": 4294967.2949999999,                                "div": 1000,            "unit": "kilometers" }, "name": "Odometer",                             "suggestedMetric": "odometer"}
+    {"id": "VENUE_EXHAUST_GAS_T",                 "path": "Engine", "fmt": {"bix": 368, "len": 8,  "max": 1300,    "min": 99, "mul": 4.709803922,              "add": 99, "unit": "celsius"    }, "name": "Exhaust gas temperature"},
+    {"id": "VENUE_ODO_LAST_DPF_REGEN",            "path": "Trips",  "fmt": {"bix": 392, "len": 32, "max": 4294967,                                "div": 1000,            "unit": "kilometers" }, "name": "Odometer at last DPF regeneration"},
+    {"id": "VENUE_DISTANCE_SINCE_LAST_DPF_REGEN", "path": "Trips",  "fmt": {"bix": 424, "len": 32, "max": 4294967,                                "div": 1000,            "unit": "kilometers" }, "name": "Distance since last DPF regeneration"},
+    {"id": "VENUE_ODO",                           "path": "Trips",  "fmt": {"bix": 456, "len": 32, "max": 4294967,                                "div": 1000,            "unit": "kilometers" }, "name": "Odometer",                             "suggestedMetric": "odometer"}
   ]},
 { "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"21": "04"}, "freq": 1,
   "signals": [
@@ -201,9 +201,9 @@
   ]},
 { "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"21": "07"}, "freq": 1,
   "signals": [
-    {"id": "VENUE_MAIN_INJECTION_QTY",  "path": "Engine", "fmt": {"bix": 96,  "len": 8,  "max": 100.000000065, "mul": 0.392156863, "unit": "liters" }, "name": "Main injection volume"},
-    {"id": "VENUE_PILOT_INJECTION_QTY", "path": "Engine", "fmt": {"bix": 104, "len": 16, "max": 65535,                             "unit": "liters" }, "name": "Pilot injection volume"},
-    {"id": "VENUE_POST_INJECTION_QTY",  "path": "Engine", "fmt": {"bix": 128, "len": 16, "max": 65535,                             "unit": "liters" }, "name": "Post injection volume"}
+    {"id": "VENUE_MAIN_INJECTION_QTY",  "path": "Engine", "fmt": {"bix": 96,  "len": 8,  "max": 100,   "mul": 0.392156863, "unit": "liters" }, "name": "Main injection volume"},
+    {"id": "VENUE_PILOT_INJECTION_QTY", "path": "Engine", "fmt": {"bix": 104, "len": 16, "max": 65535,                     "unit": "liters" }, "name": "Pilot injection volume"},
+    {"id": "VENUE_POST_INJECTION_QTY",  "path": "Engine", "fmt": {"bix": 128, "len": 16, "max": 65535,                     "unit": "liters" }, "name": "Post injection volume"}
   ]},
 { "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"21": "0A"}, "freq": 1,
   "signals": [
@@ -234,15 +234,15 @@
   ]},
 { "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"21": "14"}, "freq": 1,
   "signals": [
-    {"id": "VENUE_COMMANDED_THROTTLE_ACTUATOR",                 "path": "Engine",   "fmt": {"bix": 40,  "len": 8,  "max": 99.609375,                "mul": 0.390625,                                              "unit": "percent" },                "name": "Commanded throttle actuator"},
-    {"id": "VENUE_THROTTLE_POSITION__1",                        "path": "Engine",   "fmt": {"bix": 48,  "len": 16, "blsb": true,     "max": 799,    "min": -800,     "mul": 0.0244140625,           "sign": true,                   "unit": "percent" },                                             "name": "Throttle position #1"},
-    {"id": "VENUE_THROTTLE_POSITION__2",                        "path": "Engine",   "fmt": {"bix": 64,  "len": 16, "blsb": true,     "max": 799,    "min": -800,     "mul": 0.0244140625,           "sign": true,                   "unit": "percent" },                                             "name": "Throttle position #2"},
-    {"id": "VENUE_THROTTLE_POSITION_SENSOR_VOLTAGE__2",         "path": "Battery",  "fmt": {"bix": 80,  "len": 16, "blsb": true,     "max": 79,                      "mul": 0.0012207031,                                           "unit": "volts"   },                                             "name": "Throttle position sensor voltage #2"},
-    {"id": "VENUE_COOLANT_FAN_PWM",                             "path": "Engine",   "fmt": {"bix": 96,  "len": 8,  "max": 100,                                                                                    "unit": "percent" },                "name": "Coolant)"},
-    {"id": "VENUE_RELATIVE_ACCELERATOR_PEDAL_POSITION_VOLTAGE", "path": "Battery",  "fmt": {"bix": 112, "len": 16, "blsb": true,     "max": 6553.4, "min": -6553.6,                       "div": 5, "sign": true,                   "unit": "volts"   },                                             "name": "Relative accelerator pedal position voltage"},
-    {"id": "VENUE_RELATIVE_ACCELERATOR_PEDAL_POSITION",         "path": "Movement", "fmt": {"bix": 128, "len": 8,  "max": 99.609375,                "mul": 0.390625,                                              "unit": "percent" },                "name": "Relative accelerator pedal position"},
-    {"id": "VENUE_REQUESTED_TORQUE",                            "path": "Engine",   "fmt": {"bix": 176, "len": 16, "max": 100.00641,                "mul": 0.001526,                                              "unit": "percent" },                "name": "Requested torque"},
-    {"id": "VENUE_THROTTLE_POSITION_SENSOR_VOLTAGE__1",         "path": "Battery",  "fmt": {"bix": 360, "len": 16, "blsb": true,     "max": 79,                      "mul": 0.0012207031,                                           "unit": "volts"   },                                             "name": "Throttle position sensor voltage #1"}
+    {"id": "VENUE_COMMANDED_THROTTLE_ACTUATOR",                 "path": "Engine",   "fmt": {"bix": 40,  "len": 8,  "max": 99.6,                 "mul": 0.390625,                                              "unit": "percent" },                "name": "Commanded throttle actuator"},
+    {"id": "VENUE_THROTTLE_POSITION__1",                        "path": "Engine",   "fmt": {"bix": 48,  "len": 16, "blsb": true, "max": 799,    "min": -800,     "mul": 0.0244140625,           "sign": true,                   "unit": "percent" },                                             "name": "Throttle position #1"},
+    {"id": "VENUE_THROTTLE_POSITION__2",                        "path": "Engine",   "fmt": {"bix": 64,  "len": 16, "blsb": true, "max": 799,    "min": -800,     "mul": 0.0244140625,           "sign": true,                   "unit": "percent" },                                             "name": "Throttle position #2"},
+    {"id": "VENUE_THROTTLE_POSITION_SENSOR_VOLTAGE__2",         "path": "Battery",  "fmt": {"bix": 80,  "len": 16, "blsb": true, "max": 79,                      "mul": 0.0012207031,                                           "unit": "volts"   },                                             "name": "Throttle position sensor voltage #2"},
+    {"id": "VENUE_COOLANT_FAN_PWM",                             "path": "Engine",   "fmt": {"bix": 96,  "len": 8,  "max": 100,                                                                                "unit": "percent" },                "name": "Coolant)"},
+    {"id": "VENUE_RELATIVE_ACCELERATOR_PEDAL_POSITION_VOLTAGE", "path": "Battery",  "fmt": {"bix": 112, "len": 16, "blsb": true, "max": 6553.4, "min": -6553.6,                       "div": 5, "sign": true,                   "unit": "volts"   },                                             "name": "Relative accelerator pedal position voltage"},
+    {"id": "VENUE_RELATIVE_ACCELERATOR_PEDAL_POSITION",         "path": "Movement", "fmt": {"bix": 128, "len": 8,  "max": 99.6,                 "mul": 0.390625,                                              "unit": "percent" },                "name": "Relative accelerator pedal position"},
+    {"id": "VENUE_REQUESTED_TORQUE",                            "path": "Engine",   "fmt": {"bix": 176, "len": 16, "max": 100,                  "mul": 0.001526,                                              "unit": "percent" },                "name": "Requested torque"},
+    {"id": "VENUE_THROTTLE_POSITION_SENSOR_VOLTAGE__1",         "path": "Battery",  "fmt": {"bix": 360, "len": 16, "blsb": true, "max": 79,                      "mul": 0.0012207031,                                           "unit": "volts"   },                                             "name": "Throttle position sensor voltage #1"}
   ]},
 { "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"21": "15"}, "freq": 1,
   "signals": [
@@ -258,8 +258,8 @@
   ]},
 { "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"21": "17"}, "freq": 1,
   "signals": [
-    {"id": "VENUE_INTAKE_CAMSHAFT_POSITION_COMMANDED", "path": "ECU", "fmt": {"bix": 32, "len": 8,  "max": 63.5,  "min": -64,                      "div": 2,             "sign": true,               "unit": "degrees" },                "name": "Intake camshaft position commanded"},
-    {"id": "VENUE_INTAKE_CAMSHAFT_POSITION_ACTUAL",    "path": "ECU", "fmt": {"bix": 40, "len": 16, "blsb": true, "max": 255.9921875, "min": -256,           "div": 128,               "sign": true,                   "unit": "degrees" },                                            "name": "Intake camshaft position actual"}
+    {"id": "VENUE_INTAKE_CAMSHAFT_POSITION_COMMANDED", "path": "ECU", "fmt": {"bix": 32, "len": 8,  "max": 63.5,  "min": -64,              "div": 2,             "sign": true,               "unit": "degrees" },                "name": "Intake camshaft position commanded"},
+    {"id": "VENUE_INTAKE_CAMSHAFT_POSITION_ACTUAL",    "path": "ECU", "fmt": {"bix": 40, "len": 16, "blsb": true, "max": 255, "min": -256,           "div": 128,               "sign": true,                   "unit": "degrees" },                                            "name": "Intake camshaft position actual"}
   ]},
 { "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"21": "18"}, "freq": 5,
   "signals": [
@@ -356,11 +356,11 @@
   ]},
 { "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "E021"}, "freq": 1,
   "signals": [
-    {"id": "VENUE_TB_PRES", "path": "Engine", "fmt": {"bix": 56,  "len": 16, "max": 543.350685,  "mul": 0.008291,    "unit": "kilopascal" }, "name": "Turbo boost pressure"},
-    {"id": "VENUE_WG_V",    "path": "Engine", "fmt": {"bix": 392, "len": 16, "max": 9.99985458,  "mul": 0.000152588, "unit": "volts"      }, "name": "Waste gate voltage"},
-    {"id": "VENUE_WG_DUTY", "path": "Engine", "fmt": {"bix": 408, "len": 16, "max": 199.9970916, "mul": 0.00305176,  "unit": "percent"    }, "name": "Waste gate duty"},
-    {"id": "VENUE_WG_POS",  "path": "Engine", "fmt": {"bix": 424, "len": 16, "max": 399.9941832, "mul": 0.00610352,  "unit": "percent"    }, "name": "Waste gate position"},
-    {"id": "VENUE_WG_SP",   "path": "Engine", "fmt": {"bix": 440, "len": 16, "max": 399.9941832, "mul": 0.00610352,  "unit": "percent"    }, "name": "Waste gate set point"}
+    {"id": "VENUE_TB_PRES", "path": "Engine", "fmt": {"bix": 56,  "len": 16, "max": 543,  "mul": 0.008291,    "unit": "kilopascal" }, "name": "Turbo boost pressure"},
+    {"id": "VENUE_WG_V",    "path": "Engine", "fmt": {"bix": 392, "len": 16, "max": 9.99, "mul": 0.000152588, "unit": "volts"      }, "name": "Waste gate voltage"},
+    {"id": "VENUE_WG_DUTY", "path": "Engine", "fmt": {"bix": 408, "len": 16, "max": 199,  "mul": 0.00305176,  "unit": "percent"    }, "name": "Waste gate duty"},
+    {"id": "VENUE_WG_POS",  "path": "Engine", "fmt": {"bix": 424, "len": 16, "max": 399,  "mul": 0.00610352,  "unit": "percent"    }, "name": "Waste gate position"},
+    {"id": "VENUE_WG_SP",   "path": "Engine", "fmt": {"bix": 440, "len": 16, "max": 399,  "mul": 0.00610352,  "unit": "percent"    }, "name": "Waste gate set point"}
   ]},
 { "hdr": "7E0", "rax": "7E8", "din": "03", "dbg": true, "cmd": {"22": "E0F1"}, "freq": 1,
   "signals": [
@@ -380,16 +380,16 @@
   ]},
 { "hdr": "7E0", "rax": "7E8", "din": "03", "dbg": true, "cmd": {"22": "ED03"}, "freq": 3600,
   "signals": [
-    {"id": "VENUE_FUEL_CONS",              "path": "Fuel",   "fmt": {"bix": 40,  "len": 8,  "max": 326.9992,           "mul": 25647,   "div": 20000,            "unit": "liters"     }, "name": "Fuel consumption"},
-    {"id": "VENUE_EXH_GAS_FLOW_PF",        "path": "Engine", "fmt": {"bix": 256, "len": 8,  "max": 2000000.7,          "mul": 392157,  "div": 50,               "unit": "liters"     }, "name": "Exhaust gas flow in the particulate filter"},
-    {"id": "VENUE_EXH_GAS_T_CAT",          "path": "Engine", "fmt": {"bix": 272, "len": 8,  "max": 1300.05,            "mul": 471,     "div": 100,   "add": 99, "unit": "celsius"    }, "name": "Exhaust gas temperature at catalyst"},
-    {"id": "VENUE_NOX_TRAP_OUTLET_P",      "path": "Engine", "fmt": {"bix": 288, "len": 8,  "max": 32767.0002,         "mul": 3212451, "div": 25000,            "unit": "unknown"    }, "name": "NOx trap outlet pressure"},
-    {"id": "VENUE_DPF_LOAD_MODEL",         "path": "Engine", "fmt": {"bix": 296, "len": 8,  "max": 100,                                                         "unit": "percent"    }, "name": "Diesel particulate filter load, from model"},
-    {"id": "VENUE_ODO_LAST_DPF_REGEN_7E0", "path": "Trips",  "fmt": {"bix": 304, "len": 32, "max": 4294967.2949999999,                 "div": 1000,             "unit": "kilometers" }, "name": "Odometer at last DPF regen"},
-    {"id": "VENUE_DIST_SINCE_DPF_REGEN",   "path": "Trips",  "fmt": {"bix": 336, "len": 32, "max": 4294967.2949999999,                 "div": 1000,             "unit": "kilometers" }, "name": "Distance since last DPF regen"},
-    {"id": "VENUE_ODO_7E0",                "path": "Trips",  "fmt": {"bix": 368, "len": 32, "max": 4294967.2949999999,                 "div": 1000,             "unit": "kilometers" }, "name": "Odometer"},
-    {"id": "VENUE_DPF_REGEN_SUCCESS_ST",   "path": "Engine", "fmt": {"bix": 407, "len": 1,  "max": 1,                                                           "unit": "offon"      }, "name": "Diesel particulate filter regen success state"},
-    {"id": "VENUE_DPF_REGEN_DEMAND_CNT",   "path": "Engine", "fmt": {"bix": 432, "len": 8,  "max": 255,                                                         "unit": "scalar"     }, "name": "Diesel particulate filter regen demand counter"}
+    {"id": "VENUE_FUEL_CONS",              "path": "Fuel",   "fmt": {"bix": 40,  "len": 8,  "max": 326.9992,   "mul": 25647,   "div": 20000,            "unit": "liters"     }, "name": "Fuel consumption"},
+    {"id": "VENUE_EXH_GAS_FLOW_PF",        "path": "Engine", "fmt": {"bix": 256, "len": 8,  "max": 2000000.7,  "mul": 392157,  "div": 50,               "unit": "liters"     }, "name": "Exhaust gas flow in the particulate filter"},
+    {"id": "VENUE_EXH_GAS_T_CAT",          "path": "Engine", "fmt": {"bix": 272, "len": 8,  "max": 1300.05,    "mul": 471,     "div": 100,   "add": 99, "unit": "celsius"    }, "name": "Exhaust gas temperature at catalyst"},
+    {"id": "VENUE_NOX_TRAP_OUTLET_P",      "path": "Engine", "fmt": {"bix": 288, "len": 8,  "max": 32767.0002, "mul": 3212451, "div": 25000,            "unit": "unknown"    }, "name": "NOx trap outlet pressure"},
+    {"id": "VENUE_DPF_LOAD_MODEL",         "path": "Engine", "fmt": {"bix": 296, "len": 8,  "max": 100,                                                 "unit": "percent"    }, "name": "Diesel particulate filter load, from model"},
+    {"id": "VENUE_ODO_LAST_DPF_REGEN_7E0", "path": "Trips",  "fmt": {"bix": 304, "len": 32, "max": 4294967,                    "div": 1000,             "unit": "kilometers" }, "name": "Odometer at last DPF regen"},
+    {"id": "VENUE_DIST_SINCE_DPF_REGEN",   "path": "Trips",  "fmt": {"bix": 336, "len": 32, "max": 4294967,                    "div": 1000,             "unit": "kilometers" }, "name": "Distance since last DPF regen"},
+    {"id": "VENUE_ODO_7E0",                "path": "Trips",  "fmt": {"bix": 368, "len": 32, "max": 4294967,                    "div": 1000,             "unit": "kilometers" }, "name": "Odometer"},
+    {"id": "VENUE_DPF_REGEN_SUCCESS_ST",   "path": "Engine", "fmt": {"bix": 407, "len": 1,  "max": 1,                                                   "unit": "offon"      }, "name": "Diesel particulate filter regen success state"},
+    {"id": "VENUE_DPF_REGEN_DEMAND_CNT",   "path": "Engine", "fmt": {"bix": 432, "len": 8,  "max": 255,                                                 "unit": "scalar"     }, "name": "Diesel particulate filter regen demand counter"}
   ]},
 { "hdr": "7E0", "rax": "7E8", "din": "03", "dbg": true, "cmd": {"22": "ED05"}, "freq": 0.25,
   "signals": [
