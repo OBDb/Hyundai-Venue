@@ -1,8 +1,8 @@
 command_id: 7E0.7E8.22E004
 test_cases:
 - expected_values:
-    VENUE_AUX_SOC: 0
-    VENUE_AUX_SOH: 0
+    VENUE_AUX_SOC: null
+    VENUE_AUX_SOH: null
   response: |-
     7E8103F62E004F1C000
     7E82100140E9E0F5C0D
@@ -15,8 +15,8 @@ test_cases:
     7E82800000000000000
     7E82900AAAAAAAAAAAA
 - expected_values:
-    VENUE_AUX_SOC: 0
-    VENUE_AUX_SOH: 0
+    VENUE_AUX_SOC: null
+    VENUE_AUX_SOH: null
   response: |-
     7E8103F62E004F1C000
     7E8210034159E0FB30F
@@ -29,8 +29,8 @@ test_cases:
     7E82800000000000000
     7E82900AAAAAAAAAAAA
 - expected_values:
-    VENUE_AUX_SOC: 0
-    VENUE_AUX_SOH: 0
+    VENUE_AUX_SOC: null
+    VENUE_AUX_SOH: null
   response: |-
     7E8103F62E004F1C000
     7E8210049109E0F3510
@@ -43,8 +43,8 @@ test_cases:
     7E82800000000000000
     7E82900AAAAAAAAAAAA
 - expected_values:
-    VENUE_AUX_SOC: 0
-    VENUE_AUX_SOH: 0
+    VENUE_AUX_SOC: null
+    VENUE_AUX_SOH: null
   response: |-
     7E8103F62E004F1C000
     7E821004E09E803030B
@@ -57,8 +57,8 @@ test_cases:
     7E82800000000000000
     7E82900AAAAAAAAAAAA
 - expected_values:
-    VENUE_AUX_SOC: 0
-    VENUE_AUX_SOH: 0
+    VENUE_AUX_SOC: null
+    VENUE_AUX_SOH: null
   response: |-
     7E8103F62E004F1C000
     7E821004F0F9E0F9F0C
@@ -71,8 +71,8 @@ test_cases:
     7E82800000000000000
     7E82900AAAAAAAAAAAA
 - expected_values:
-    VENUE_AUX_SOC: 0
-    VENUE_AUX_SOH: 0
+    VENUE_AUX_SOC: null
+    VENUE_AUX_SOH: null
   response: |-
     7E8103F62E004F1C000
     7E821005B0E9E0F7F0C
@@ -85,8 +85,8 @@ test_cases:
     7E82800000000000000
     7E82900AAAAAAAAAAAA
 - expected_values:
-    VENUE_AUX_SOC: 0
-    VENUE_AUX_SOH: 0
+    VENUE_AUX_SOC: null
+    VENUE_AUX_SOH: null
   response: |-
     7E8103F62E004F1C000
     7E82100650E9E0FC20E
@@ -99,8 +99,8 @@ test_cases:
     7E82800000000000000
     7E82900AAAAAAAAAAAA
 - expected_values:
-    VENUE_AUX_SOC: 0
-    VENUE_AUX_SOH: 0
+    VENUE_AUX_SOC: null
+    VENUE_AUX_SOH: null
   response: |-
     7E8103F62E004F1C000
     7E82100830D9E0F900C
@@ -113,8 +113,8 @@ test_cases:
     7E82800000000000000
     7E82900AAAAAAAAAAAA
 - expected_values:
-    VENUE_AUX_SOC: 0
-    VENUE_AUX_SOH: 0
+    VENUE_AUX_SOC: null
+    VENUE_AUX_SOH: null
   response: |-
     7E8103F62E004F1C000
     7E82100DE169011EA1D
