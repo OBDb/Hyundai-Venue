@@ -1,8 +1,8 @@
 command_id: 7E0.7E8.22E004
 test_cases:
 - expected_values:
-    VENUE_AUX_SOC: 0
-    VENUE_AUX_SOH: 0
+    VENUE_AUX_SOC: null
+    VENUE_AUX_SOH: null
   response: |-
     7E8107C62E004BFC000
     7E8217C01050000140A
@@ -23,8 +23,8 @@ test_cases:
     7E82000000000000000
     7E821000000000000AA
 - expected_values:
-    VENUE_AUX_SOC: 0
-    VENUE_AUX_SOH: 0
+    VENUE_AUX_SOC: null
+    VENUE_AUX_SOH: null
   response: |-
     7E8107C62E004BFC000
     7E8217C060900007011
@@ -45,8 +45,8 @@ test_cases:
     7E82000000000000000
     7E821000000000000AA
 - expected_values:
-    VENUE_AUX_SOC: 0
-    VENUE_AUX_SOH: 0
+    VENUE_AUX_SOC: null
+    VENUE_AUX_SOH: null
   response: |-
     7E8107C62E004BFC000
     7E8217C0F050000970C
@@ -67,8 +67,8 @@ test_cases:
     7E82000000000000000
     7E821000000000000AA
 - expected_values:
-    VENUE_AUX_SOC: 0
-    VENUE_AUX_SOH: 0
+    VENUE_AUX_SOC: null
+    VENUE_AUX_SOH: null
   response: |-
     7E8107C62E004BFC000
     7E8217C110D0000640D
@@ -89,8 +89,8 @@ test_cases:
     7E82000000000000000
     7E821000000000000AA
 - expected_values:
-    VENUE_AUX_SOC: 0
-    VENUE_AUX_SOH: 0
+    VENUE_AUX_SOC: null
+    VENUE_AUX_SOH: null
   response: |-
     7E8107C62E004BFC000
     7E8217C160800008B11
@@ -111,8 +111,8 @@ test_cases:
     7E82000000000000000
     7E821000000000000AA
 - expected_values:
-    VENUE_AUX_SOC: 0
-    VENUE_AUX_SOH: 0
+    VENUE_AUX_SOC: null
+    VENUE_AUX_SOH: null
   response: |-
     7E8107C62E004BFC000
     7E8217C1D050000D20B
@@ -133,8 +133,8 @@ test_cases:
     7E82000000000000000
     7E821000000000000AA
 - expected_values:
-    VENUE_AUX_SOC: 0
-    VENUE_AUX_SOH: 0
+    VENUE_AUX_SOC: null
+    VENUE_AUX_SOH: null
   response: |-
     7E8107C62E004BFC000
     7E8217C20080000E214
@@ -155,8 +155,8 @@ test_cases:
     7E82000000000000000
     7E821000000000000AA
 - expected_values:
-    VENUE_AUX_SOC: 0
-    VENUE_AUX_SOH: 0
+    VENUE_AUX_SOC: null
+    VENUE_AUX_SOH: null
   response: |-
     7E8107C62E004BFC000
     7E8217C22050000AE13
@@ -177,8 +177,8 @@ test_cases:
     7E82000000000000000
     7E821000000000000AA
 - expected_values:
-    VENUE_AUX_SOC: 0
-    VENUE_AUX_SOH: 0
+    VENUE_AUX_SOC: null
+    VENUE_AUX_SOH: null
   response: |-
     7E8107C62E004BFC000
     7E8217C240800006A15
@@ -199,8 +199,8 @@ test_cases:
     7E82000000000000000
     7E821000000000000AA
 - expected_values:
-    VENUE_AUX_SOC: 0
-    VENUE_AUX_SOH: 0
+    VENUE_AUX_SOC: null
+    VENUE_AUX_SOH: null
   response: |-
     7E8107C62E004BFC000
     7E8217C2C0500004D0D
@@ -221,8 +221,8 @@ test_cases:
     7E82000000000000000
     7E821000000000000AA
 - expected_values:
-    VENUE_AUX_SOC: 0
-    VENUE_AUX_SOH: 0
+    VENUE_AUX_SOC: null
+    VENUE_AUX_SOH: null
   response: |-
     7E8107C62E004BFC000
     7E8217C310500000A0B
@@ -243,8 +243,8 @@ test_cases:
     7E82000000000000000
     7E821000000000000AA
 - expected_values:
-    VENUE_AUX_SOC: 0
-    VENUE_AUX_SOH: 0
+    VENUE_AUX_SOC: null
+    VENUE_AUX_SOH: null
   response: |-
     7E8107C62E004BFC000
     7E8217C31090000460A
@@ -265,8 +265,8 @@ test_cases:
     7E82000000000000000
     7E821000000000000AA
 - expected_values:
-    VENUE_AUX_SOC: 0
-    VENUE_AUX_SOH: 0
+    VENUE_AUX_SOC: null
+    VENUE_AUX_SOH: null
   response: |-
     7E8107C62E004BFC000
     7E8217C590800008A16
@@ -287,8 +287,8 @@ test_cases:
     7E82000000000000000
     7E821000000000000AA
 - expected_values:
-    VENUE_AUX_SOC: 0
-    VENUE_AUX_SOH: 0
+    VENUE_AUX_SOC: null
+    VENUE_AUX_SOH: null
   response: |-
     7E8107C62E004BFC000
     7E8217C5A0A0000A311
@@ -309,8 +309,8 @@ test_cases:
     7E82000000000000000
     7E821000000000000AA
 - expected_values:
-    VENUE_AUX_SOC: 0
-    VENUE_AUX_SOH: 0
+    VENUE_AUX_SOC: null
+    VENUE_AUX_SOH: null
   response: |-
     7E8107C62E004BFC000
     7E8217C6D080000DE12
@@ -331,8 +331,8 @@ test_cases:
     7E82000000000000000
     7E821000000000000AA
 - expected_values:
-    VENUE_AUX_SOC: 0
-    VENUE_AUX_SOH: 0
+    VENUE_AUX_SOC: null
+    VENUE_AUX_SOH: null
   response: |-
     7E8107C62E004BFC000
     7E8217C71080000A216
@@ -353,8 +353,8 @@ test_cases:
     7E82000000000000000
     7E821000000000000AA
 - expected_values:
-    VENUE_AUX_SOC: 0
-    VENUE_AUX_SOH: 0
+    VENUE_AUX_SOC: null
+    VENUE_AUX_SOH: null
   response: |-
     7E8107C62E004BFC000
     7E8217C84040000570B
@@ -375,8 +375,8 @@ test_cases:
     7E82000000000000000
     7E821000000000000AA
 - expected_values:
-    VENUE_AUX_SOC: 0
-    VENUE_AUX_SOH: 0
+    VENUE_AUX_SOC: null
+    VENUE_AUX_SOH: null
   response: |-
     7E8107C62E004BFC000
     7E8217C8D0600005711
@@ -397,8 +397,8 @@ test_cases:
     7E82000000000000000
     7E821000000000000AA
 - expected_values:
-    VENUE_AUX_SOC: 0
-    VENUE_AUX_SOH: 0
+    VENUE_AUX_SOC: null
+    VENUE_AUX_SOH: null
   response: |-
     7E8107C62E004BFC000
     7E8217C95070000900C
@@ -419,8 +419,8 @@ test_cases:
     7E82000000000000000
     7E821000000000000AA
 - expected_values:
-    VENUE_AUX_SOC: 0
-    VENUE_AUX_SOH: 0
+    VENUE_AUX_SOC: null
+    VENUE_AUX_SOH: null
   response: |-
     7E8107C62E004BFC000
     7E8217C97040000140A
@@ -441,8 +441,8 @@ test_cases:
     7E82000000000000000
     7E821000000000000AA
 - expected_values:
-    VENUE_AUX_SOC: 0
-    VENUE_AUX_SOH: 0
+    VENUE_AUX_SOC: null
+    VENUE_AUX_SOH: null
   response: |-
     7E8107C62E004BFC000
     7E8217C9C040000DA0B
@@ -463,8 +463,8 @@ test_cases:
     7E82000000000000000
     7E821000000000000AA
 - expected_values:
-    VENUE_AUX_SOC: 0
-    VENUE_AUX_SOH: 0
+    VENUE_AUX_SOC: null
+    VENUE_AUX_SOH: null
   response: |-
     7E8107C62E004BFC000
     7E8217CA0040000D10A
@@ -485,8 +485,8 @@ test_cases:
     7E82000000000000000
     7E821000000000000AA
 - expected_values:
-    VENUE_AUX_SOC: 0
-    VENUE_AUX_SOH: 0
+    VENUE_AUX_SOC: null
+    VENUE_AUX_SOH: null
   response: |-
     7E8107C62E004BFC000
     7E8217CAB0400006912
@@ -507,8 +507,8 @@ test_cases:
     7E82000000000000000
     7E821000000000000AA
 - expected_values:
-    VENUE_AUX_SOC: 0
-    VENUE_AUX_SOH: 0
+    VENUE_AUX_SOC: null
+    VENUE_AUX_SOH: null
   response: |-
     7E8107C62E004BFC000
     7E8217CAF0400005910
@@ -529,8 +529,8 @@ test_cases:
     7E82000000000000000
     7E821000000000000AA
 - expected_values:
-    VENUE_AUX_SOC: 0
-    VENUE_AUX_SOH: 0
+    VENUE_AUX_SOC: null
+    VENUE_AUX_SOH: null
   response: |-
     7E8107C62E004BFC000
     7E8217CB4080000A611
@@ -551,8 +551,8 @@ test_cases:
     7E82000000000000000
     7E821000000000000AA
 - expected_values:
-    VENUE_AUX_SOC: 0
-    VENUE_AUX_SOH: 0
+    VENUE_AUX_SOC: null
+    VENUE_AUX_SOH: null
   response: |-
     7E8107C62E004BFC000
     7E8217CB9040000930C
@@ -573,8 +573,8 @@ test_cases:
     7E82000000000000000
     7E821000000000000AA
 - expected_values:
-    VENUE_AUX_SOC: 0
-    VENUE_AUX_SOH: 0
+    VENUE_AUX_SOC: null
+    VENUE_AUX_SOH: null
   response: |-
     7E8107C62E004BFC000
     7E8217CD1040000FA0B
@@ -595,8 +595,8 @@ test_cases:
     7E82000000000000000
     7E821000000000000AA
 - expected_values:
-    VENUE_AUX_SOC: 0
-    VENUE_AUX_SOH: 0
+    VENUE_AUX_SOC: null
+    VENUE_AUX_SOH: null
   response: |-
     7E8107C62E004BFC000
     7E8217CF2040000880C
@@ -617,8 +617,8 @@ test_cases:
     7E82000000000000000
     7E821000000000000AA
 - expected_values:
-    VENUE_AUX_SOC: 0
-    VENUE_AUX_SOH: 0
+    VENUE_AUX_SOC: null
+    VENUE_AUX_SOH: null
   response: |-
     7E8107C62E004BFC000
     7E8217CF20400008A0B
@@ -639,8 +639,8 @@ test_cases:
     7E82000000000000000
     7E821000000000000AA
 - expected_values:
-    VENUE_AUX_SOC: 0
-    VENUE_AUX_SOH: 0
+    VENUE_AUX_SOC: null
+    VENUE_AUX_SOH: null
   response: |-
     7E8107C62E004BFC000
     7E8217CF80A0000E312
@@ -661,8 +661,8 @@ test_cases:
     7E82000000000000000
     7E821000000000000AA
 - expected_values:
-    VENUE_AUX_SOC: 0
-    VENUE_AUX_SOH: 0
+    VENUE_AUX_SOC: null
+    VENUE_AUX_SOH: null
   response: |-
     7E8107C62E004BFC000
     7E8217CF9050000090E
