@@ -96,7 +96,7 @@
     {"id": "VENUE_HVAC_IAT_PASSENGER_VENT",      "path": "Climate", "fmt": {"bix": 64, "len": 8, "max": 87.5, "min": -40, "div": 2, "add": -40, "unit": "celsius" }, "name": "Interior temperature, passenger vent"},
     {"id": "VENUE_HVAC_IAT_PASSENGER_LEGS_VENT", "path": "Climate", "fmt": {"bix": 72, "len": 8, "max": 87.5, "min": -40, "div": 2, "add": -40, "unit": "celsius" }, "name": "Interior temperature, passenger legs vent"}
   ]},
-{ "hdr": "7C6", "rax": "7CE", "cmd": {"22": "B002"}, "freq": 30, "dbgfilter": { "to": 2021, "years": [2023, 2024], "from": 2026 },
+{ "hdr": "7C6", "rax": "7CE", "cmd": {"22": "B002"}, "freq": 1, "dbgfilter": { "to": 2021, "years": [2023, 2024], "from": 2026 },
   "signals": [
     {"id": "VENUE_FLI_VOL",         "path": "Fuel",       "fmt": {"bix": 32, "len": 8,  "max": 127.5,    "div": 2,    "nullmax": 127.5, "unit": "liters"     }, "name": "Fuel level, volume", "suggestedMetric": "fuelTankLevel"},
     {"id": "VENUE_CLUSTER_VOLTAGE", "path": "Electrical", "fmt": {"bix": 40, "len": 8,  "max": 18,       "div": 12.8,                   "unit": "volts"      }, "name": "Cluster voltage"},
